@@ -1,4 +1,4 @@
-module github.com/cnabio/cnab-go
+module github.com/KurtSchenk/cnab-go
 
 go 1.19
 
