@@ -26,6 +26,6 @@ func Lookup(name string) (driver.Driver, error) {
 			return cmddriver, nil
 		}
 
-		return nil, fmt.Errorf("unsupported driver or driver not found in PATH: %s", name)
+		return nil, fmt.Errorf("Aha! unsupported driver or driver not found in PATH: %s", name)
 	}
 }
